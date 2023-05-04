@@ -39,8 +39,13 @@ async def cbstart(_, query: CallbackQuery):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "🧪 Source Code 🧪", url="https://github.com"
+                 ],[ 
+                     ),
+                     InlineKeyboardButton(
+                         " 👩‍💻 OWNER 👩‍💻", url="https://t.me/Lerrdab
                     )
+                   
                 ]
             ]
         ),
