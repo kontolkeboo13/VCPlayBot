@@ -66,6 +66,9 @@ async def start_(client: Client, message: Message):
                 ],[
                     InlineKeyboardButton(
                         "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                ],[
+                    InlineKeyboardButton(
+                        "👩‍💻 OWNER 👩‍💻", url="https://t.me/Lerrdab")
                     )
                 ]
             ]
@@ -161,8 +164,8 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "🏓 `PONG!!`\n"
-        f"⚡️ `{delta_ping * 1000:.3f} ms`"
+        "🙆 `PONG!!`\n"
+        f"✨ `{delta_ping * 1000:.3f} ms`"
     )
 
 
