@@ -106,7 +106,7 @@ f"""
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
-Join @Girls_And_Boys_Chatting
+Join Ch gua anjing @xxGRAMZ
 """,
 
 f"""
